@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +39,39 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.joke-container {
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+.joke-text {
+  font-size: 1.2em;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
